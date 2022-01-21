@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('continuous down') {
+        stage('continuous download') {
             steps {
                git 'https://github.com/AneesRavidKhan/gamutkart.git' 
             }
